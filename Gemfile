@@ -41,6 +41,9 @@ gem "font-awesome-rails"
 # for simple forms from plataformatec
 gem 'simple_form'
 
+# for authentication usage with simple forms from plataformatec
+gem 'devise'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
