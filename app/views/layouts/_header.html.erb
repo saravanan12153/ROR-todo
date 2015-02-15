@@ -17,7 +17,7 @@
       
       <ul class="nav navbar-nav navbar-right">
         <% if current_user %>
-          <li><%= link_to "<i class='fa fa-cog'></i> Settings".html_safe, edit_user_registration_path %></li>
+          <li><%= link_to "<i class='fa fa-cogs'></i> Settings".html_safe, edit_user_registration_path %></li>
           <li><%= link_to "<i class='fa fa-sign-out'></i> Log Out".html_safe, destroy_user_session_path, method: :delete %></li>
         <% else %>
           <li><%= link_to "<i class='fa fa-info'></i> About".html_safe, about_path %></li>
