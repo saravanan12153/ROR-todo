@@ -44,6 +44,9 @@ gem 'simple_form'
 # for authentication usage with simple forms from plataformatec
 gem 'devise'
 
+# for detecting the link automatically from youtube etc developed by dejan
+gem "auto_html"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
