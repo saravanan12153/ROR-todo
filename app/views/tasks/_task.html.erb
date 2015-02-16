@@ -3,6 +3,10 @@
 		<%= link_to edit_task_path(task) do %>
 		<i class="fa fa-pencil-square"></i> Created <%= time_ago_in_words(task.created_at) %> ago
 		<% end %>
+
+		<%= link_to task_path(task), :method => :delete, :data => {:confirm => "Are you sure?"} do %>
+		<i class="fa fa-trash fa-lg pull-right"></i>
+		<% end %>
 	</div>
 	<div class="panel-body">
 		<%= task.content %>
